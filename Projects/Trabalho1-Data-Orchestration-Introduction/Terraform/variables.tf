@@ -33,7 +33,7 @@ locals {
         securitygroup = "securitygroup-${var.tags["Matrícula"]}" # Nome do grupo de segurança (Não modificar o padrão!)
         vmPrepOrqDados = "vmPrepOrqDados${var.tags["Matrícula"]}" # Nome da máquina virtual onde Airflow e DataHub serão configurados (Não modificar o padrão!)
         instancetype = "Standard_E2as_v4" # Tipo de instância com 2 VCPUs e 16 GB de RAM (usada pelo AIRFLOW/DATAHUB e DREMIO)
-        ippessoal = "189.33.171.104" # Substitua pelo IP do seu roteador. Utilize o site https://whatismyip.com.br/ para descobrir seu endereço IP (coloque ["XXX.XXX.XXX.XXX", "YYY.YYY.YYY.YYY"] se quiser passar uma lista de IPs)
+        ippessoal = "1xx.33.171.104" # Substitua pelo IP do seu roteador. Utilize o site https://whatismyip.com.br/ para descobrir seu endereço IP (coloque ["XXX.XXX.XXX.XXX", "YYY.YYY.YYY.YYY"] se quiser passar uma lista de IPs)
         nomeusuariovm = "azureuser" # Nome do usuário para conectar-se as máquinas virtuais. Substituir (se quiser) por um nome de seu conhecimento
         senhausuariovm = "Xa1234@54?2" # Senha associada ao usuário para conectar-se as máquinas virtuais. Substituir (se quiser) por uma senha forte (mínimo de 12 dígitos), letras maiúsculas e minúsculas, caracteres especiais e números"
         vm_ip_allocated = "Static" # Mantenha como "Static" e crie as máquinas virtuais. Após executar o terraform apply pela primeira vez e configurar as máquinas, troque o valor para "Dynamic" e execute o terraform novamente
