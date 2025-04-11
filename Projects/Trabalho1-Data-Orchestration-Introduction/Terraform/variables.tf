@@ -3,8 +3,8 @@ variable tags {
     default = {
         Aluno = "Tassio Luiz Dantas do Carmo" # Coloque seu nome completo
         Disciplina = "Preparação, Orquestração e Fluxos de Dados" # Insira o nome da disciplina
-        Matrícula = "1568439" # Coloque o número que aparece no seu e-mail "XXXXXXX@sga.pucminas.br"
-        Email = "1568439@sga.pucminas.br" # Insira o seu e-mail "XXXXXX@sga.pucminas.br"
+        Matrícula = "15xx439" # Coloque o número que aparece no seu e-mail "XXXXXXX@sga.pucminas.br"
+        Email = "15xx439@sga.pucminas.br" # Insira o seu e-mail "XXXXXX@sga.pucminas.br"
         Professor = "Victor Sales Silva" # Nome do professor
     }
 }
